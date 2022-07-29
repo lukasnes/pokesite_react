@@ -1,5 +1,5 @@
 .sidebar{
-    position: absolute;
+    position: fixed;
     top: var(--header-height);
     display: flex;
     flex-direction: column;
@@ -84,24 +84,46 @@
 .menu:hover {
     cursor: pointer;
 }
-.menu:hover #home-line {
+.menu:hover #home-line{
     background-color: var(--red);
 }
-.menu:hover #dex-line {
+.menu:hover #dex-line{
     background-color: var(--orange);
 }
-.menu:hover #team-line {
+.menu:hover #team-line{
     background-color: var(--yellow);
 }
-.menu:hover #battle-line {
+.menu:hover #battle-line{
     background-color: var(--green);
 }
-.menu:hover #forum-line {
+.menu:hover #forum-line{
     background-color: var(--aquamarine);
 }
-.menu:hover #pages-line {
+.menu:hover #pages-line{
     background-color: var(--blue);
 }
-.menu:hover #about-line {
+.menu:hover #about-line{
     background-color: var(--violet);
+}
+
+.menu:hover .home-text{
+    color: var(--red);
+}
+.menu:hover .dex-text{
+    color: var(--orange);
+}
+.menu:hover .team-text{
+    color: var(--yellow);
+}
+.menu:hover .battle-text{
+    color: var(--green);
+}
+.menu:hover .forum-text{
+    color: var(--aquamarine);
+}
+.menu:hover .ex-site-text{
+    color: var(--blue);
+}
+.menu:hover .about-text{
+    color: var(--violet);
 }

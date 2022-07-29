@@ -7,7 +7,7 @@ const Sidebar = (props) => {
       <nav className="menu" id="home-link">
         <div className="link-desc">
           <img src={ homeImage } alt="" className="link-image" />
-          <p className="link-text">Home</p>
+          <p className="link-text home-text">Home</p>
         </div>
         <div className="link-underline" id="home-line"></div>
       </nav>
@@ -15,7 +15,7 @@ const Sidebar = (props) => {
       <nav className="menu" id="dex-link">
         <div className="link-desc">
           <img src={ homeImage } alt="" className="link-image" />
-          <p className="link-text">Pokédex</p>
+          <p className="link-text dex-text">Pokédex</p>
         </div>
         <div className="link-underline" id="dex-line"></div>
       </nav>
@@ -23,7 +23,7 @@ const Sidebar = (props) => {
       <nav className="menu" id="team-link">
         <div className="link-desc">
           <img src={ homeImage } alt="" className="link-image" />
-          <p className="link-text">Team Builder</p>
+          <p className="link-text team-text">Team Builder</p>
         </div>
         <div className="link-underline" id="team-line"></div>
       </nav>
@@ -31,7 +31,7 @@ const Sidebar = (props) => {
       <nav className="menu" id="battle-link">
         <div className="link-desc">
           <img src={ homeImage } alt="" className="link-image" />
-          <p className="link-text">Battle Simulator</p>
+          <p className="link-text battle-text">Battle Simulator</p>
         </div>
         <div className="link-underline" id="battle-line"></div>
       </nav>
@@ -39,7 +39,7 @@ const Sidebar = (props) => {
       <nav className="menu" id="forum-link">
         <div className="link-desc">
           <img src={ homeImage } alt="" className="link-image" />
-          <p className="link-text">Poké Forums</p>
+          <p className="link-text forum-text">Poké Forums</p>
         </div>
         <div className="link-underline" id="forum-line"></div>
       </nav>
@@ -47,7 +47,7 @@ const Sidebar = (props) => {
       <nav className="menu" id="ex-site-link">
         <div className="link-desc">
           <img src={ homeImage } alt="" className="link-image" />
-          <p className="link-text">Other Poké Pages</p>
+          <p className="link-text ex-site-text">Other Poké Pages</p>
         </div>
         <div className="link-underline" id="pages-line"></div>
       </nav>
@@ -55,7 +55,7 @@ const Sidebar = (props) => {
       <nav className="menu" id="about-link">
         <div className="link-desc">
           <img src={ homeImage } alt="" className="link-image" />
-          <p className="link-text">About Us</p>
+          <p className="link-text about-text">About Us</p>
         </div>
         <div className="link-underline" id="about-line"></div>
       </nav>

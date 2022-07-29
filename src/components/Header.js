@@ -5,11 +5,10 @@ const Header = (props) => {
 
     const toggleSandwich = (evt) => {
         let button = evt.target
-        props.sandwichToggled ? props.setSandwichToggled(false) : props.setSandwichToggled(true)
-        props.sandwichToggled ? props.setSidebarToggled(false) : props.setSidebarToggled(true)
+        props.sidebarToggled ? props.setSidebarToggled(false) : props.setSidebarToggled(true)
 
         button.classList.contains('sandwich-btn') ? button = button : button = button.parentNode
-        props.sandwichToggled ? button.classList.add('open') : button.classList.remove('open')
+        props.sidebarToggled ? button.classList.add('open') : button.classList.remove('open')
     }
 
     return (

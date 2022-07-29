@@ -1,0 +1,24 @@
+.content {
+    position: absolute;
+    top: var(--header-height);
+    left: var(--sidebar-width);
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - var(--sidebar-width));
+    min-height: 100vh;
+    background-color: var(--white);
+    opacity: 0.3;
+    transition: 0.4s;
+    z-index: -1;
+}
+.content.shrunk{
+    left: var(--sidebar-open-width);
+    width: calc(100vw - var(--sidebar-open-width))
+}
+.content-header{
+    height: var(--header-height);
+}
+
+.left-column, .right-column{
+    width: 50%;
+}
