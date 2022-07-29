@@ -1,0 +1,46 @@
+#header{
+    position: fixed;
+    display: flex;
+    background-color: var(--white);
+    height: var(--header-height);
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-links {
+    height: var(--header-height);
+    width: calc(var(--header-height) * 2);
+}
+
+#sidebar-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: var(--header-height);
+    width: var(--header-height);
+    background-color: var(--white);
+    border: none;
+}
+#sidebar-btn:hover{
+    cursor: pointer;
+}
+
+.wich-one, .wich-two, .wich-three{
+    width: 80%;
+    height: calc(var(--header-height) / 12);
+    background-color: var(--black);
+    transition: 0.4s;
+}
+.open .wich-one{
+    -webkit-transform: rotate(-45deg) translate(-14px,14px);
+    transform: rotate(-45deg) translate(-14px,14px);
+}
+.open .wich-two{
+    opacity: 0;
+}
+.open .wich-three{
+    -webkit-transform: rotate(45deg) translate(-15px,-17px);
+    transform: rotate(45deg) translate(-15px,-17px);
+}

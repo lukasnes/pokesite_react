@@ -1,0 +1,23 @@
+:root {
+    /* ---------------Colors---------------- */
+    --white: #FFFFFF;
+    --black: #001A23;
+    --violet: #7B6085;
+    --blue: #306BAC;
+    --aquamarine: #7AE7C7;
+    --green: #0CCE6B;
+    --yellow: #F8C630;
+    --orange: #EF8218;
+    --red: #A32235;
+    /* ---------------Values--------------- */
+    --header-height: 5rem;
+    --sidebar-width: 4rem;
+    --sidebar-open-width: 15rem;
+}
+
+body {
+    background-image: url('./images/pokemon_bg.png');
+    font-family: "Flexo-Regular", arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
