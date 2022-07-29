@@ -1,0 +1,107 @@
+.sidebar{
+    position: absolute;
+    top: var(--header-height);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--white);
+    width: var(--header-height);
+    height: calc(100vh - var(--header-height));
+    overflow-x: hidden;
+    transition: 0.4s
+}
+.sidebar.open {
+    width: calc(var(--header-height) * 3)
+}
+.menu{
+    width: 3.125rem;
+    height: 50px;
+    transition: 0.4s;
+}
+.open .menu {
+    width: 12rem;
+}
+.link-text{
+    display: none;
+    opacity: 0;
+    transition: 0.4s;
+    color: var(--black);
+    font-weight: bold;
+}
+.open .link-text {
+    display: block;
+    opacity: 1;
+}
+.link-desc{
+    display: flex;
+    justify-content: space-between;
+    width: 3.125rem;
+    height: 50px;
+}
+.open .link-desc{
+    width: 12rem;
+}
+
+.link-underline{
+    height: .5rem;
+    width: 100%;
+    margin-top: 5px;
+    background-color: var(--black);
+    transition: 0.4s;
+}
+.link-underline::before{
+    position: absolute;
+    left: 0.4375rem;
+    content: '';
+    display: inline-block;
+    height: .5rem;
+    width: .5rem;
+    background-color: var(--black);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    transition: 0.4s
+}
+.open .link-underline::before{
+    left: 1rem;
+}
+.link-underline::after{
+    position: absolute;
+    left: 4.0625rem;
+    content: '';
+    display: inline-block;
+    height: .5rem;
+    width: .5rem;
+    background-color: var(--black);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transition: 0.4s
+}
+.open .link-underline::after{
+    left: 13.5rem;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+.menu:hover #home-line {
+    background-color: var(--red);
+}
+.menu:hover #dex-line {
+    background-color: var(--orange);
+}
+.menu:hover #team-line {
+    background-color: var(--yellow);
+}
+.menu:hover #battle-line {
+    background-color: var(--green);
+}
+.menu:hover #forum-line {
+    background-color: var(--aquamarine);
+}
+.menu:hover #pages-line {
+    background-color: var(--blue);
+}
+.menu:hover #about-line {
+    background-color: var(--violet);
+}

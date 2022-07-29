@@ -1,16 +1,15 @@
 import './Header.css';
-import { useState } from 'react';
 import pokeLogo from '../images/poke_logo.png';
 
-const Header = () => {
-    const [isToggled, toggle] = useState(false)
+const Header = (props) => {
 
     const toggleSandwich = (evt) => {
         let button = evt.target
-        isToggled ? toggle(false) : toggle(true)
-        
+        props.sandwichToggled ? props.setSandwichToggled(false) : props.setSandwichToggled(true)
+        props.sandwichToggled ? props.setSidebarToggled(false) : props.setSidebarToggled(true)
+
         button.classList.contains('sandwich-btn') ? button = button : button = button.parentNode
-        isToggled ? button.classList.add('open') : button.classList.remove('open')
+        props.sandwichToggled ? button.classList.add('open') : button.classList.remove('open')
     }
 
     return (
