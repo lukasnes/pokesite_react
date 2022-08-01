@@ -84,46 +84,46 @@
 .menu:hover {
     cursor: pointer;
 }
-.menu:hover #home-line{
+.menu:hover #home-line, #home-line.active{
     background-color: var(--red);
 }
-.menu:hover #dex-line{
+.menu:hover #dex-line, #dex-line.active{
     background-color: var(--orange);
 }
-.menu:hover #team-line{
+.menu:hover #team-line, #team-line.active{
     background-color: var(--yellow);
 }
-.menu:hover #battle-line{
+.menu:hover #battle-line, #battle-line.active{
     background-color: var(--green);
 }
-.menu:hover #forum-line{
+.menu:hover #forum-line, #forum-line.active{
     background-color: var(--aquamarine);
 }
-.menu:hover #pages-line{
+.menu:hover #pages-line, #pages-line.active{
     background-color: var(--blue);
 }
-.menu:hover #about-line{
+.menu:hover #about-line, #about-line.active{
     background-color: var(--violet);
 }
 
-.menu:hover .home-text{
+.menu:hover .home-text, .home-text.active{
     color: var(--red);
 }
-.menu:hover .dex-text{
+.menu:hover .dex-text, .dex-text.active{
     color: var(--orange);
 }
-.menu:hover .team-text{
+.menu:hover .team-text, .team-text.active{
     color: var(--yellow);
 }
-.menu:hover .battle-text{
+.menu:hover .battle-text, .battle-text.active{
     color: var(--green);
 }
-.menu:hover .forum-text{
+.menu:hover .forum-text, .forum-text.active{
     color: var(--aquamarine);
 }
-.menu:hover .ex-site-text{
+.menu:hover .ex-site-text, .ex-site-text.active{
     color: var(--blue);
 }
-.menu:hover .about-text{
+.menu:hover .about-text, .about-text.active{
     color: var(--violet);
 }

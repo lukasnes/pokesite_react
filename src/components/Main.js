@@ -6,14 +6,6 @@ const Main = (props) => {
             <header className='content-header'>
 
             </header>
-            <section className='sub-section'>
-                <section className='left-column'>
-
-                </section>
-                <section className='right-column'>
-
-                </section>
-            </section>
         </main>
     )
 }

@@ -18,7 +18,3 @@
 .content-header{
     height: var(--header-height);
 }
-
-.left-column, .right-column{
-    width: 50%;
-}
