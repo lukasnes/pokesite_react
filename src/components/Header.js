@@ -1,5 +1,5 @@
 import './Header.css';
-import pokeLogo from '../images/poke_logo.png';
+import pokeLogo from '../images/logos/poke_logo.png';
 
 const Header = (props) => {
 

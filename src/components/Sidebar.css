@@ -121,7 +121,7 @@
 .menu:hover .forum-text, .forum-text.active{
     color: var(--aquamarine);
 }
-.menu:hover .ex-site-text, .ex-site-text.active{
+.menu:hover .pages-text, .pages-text.active{
     color: var(--blue);
 }
 .menu:hover .about-text, .about-text.active{

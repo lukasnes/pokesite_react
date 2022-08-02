@@ -34,12 +34,9 @@ const App = () => {
         <Sidebar sidebarToggled={sidebarToggled} path={path} />
       </aside>
       <main>
-        <Main sidebarToggled={sidebarToggled}>
+        <Main sidebarToggled={sidebarToggled} path={path}>
             <Routes>
                 <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route exact path="/home">
                     <Home />
                 </Route>
                 <Route exact path="/pokedex">
@@ -59,6 +56,9 @@ const App = () => {
                 </Route>
                 <Route exact path="/about">
                     <About />
+                </Route>
+                <Route path="/">
+                    <Home />
                 </Route>
             </Routes>
         </Main>

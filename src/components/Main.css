@@ -6,8 +6,6 @@
     flex-direction: column;
     width: calc(100vw - var(--sidebar-width));
     min-height: 100vh;
-    background-color: var(--white);
-    opacity: 0.3;
     transition: 0.4s;
     z-index: -1;
 }
@@ -16,5 +14,10 @@
     width: calc(100vw - var(--sidebar-open-width))
 }
 .content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: var(--header-height);
+    font-size: 3em;
+    color: var(--white);
 }
