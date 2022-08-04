@@ -1,6 +1,7 @@
 import Bulbasaur from './articles/bulbasaur.png';
 import TradingCardGame from './articles/pokemon_tcg.jpeg';
 import PokemonTeam from './articles/poketeam.jpg';
+import PokeShow from './articles/show_logo.png';
 import HomeIcon from './icons/home.png';
 import DexIcon from './icons/dex.png';
 import TeamIcon from './icons/team.png';
@@ -16,7 +17,8 @@ const Images = {
     articles: {
         bulbasaur: Bulbasaur,
         tcg: TradingCardGame,
-        team: PokemonTeam
+        team: PokemonTeam,
+        show: PokeShow
     },
     icons: {
         home: HomeIcon,
