@@ -1,5 +1,4 @@
 import "./Sidebar.css";
-import Images from '../images/Images';
 import SidebarData from "./SidebarData";
 import { Link } from 'react-router-dom';
 

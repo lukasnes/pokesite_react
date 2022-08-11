@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const LinkTagArticle = props => {
     return (
-        <Link style={{textDecoration: 'none'}} to={props.link}>
+        <Link style={{textDecoration: 'none'}} to={props.obj.link}>
             <article>
                 <div></div>
                 <div>

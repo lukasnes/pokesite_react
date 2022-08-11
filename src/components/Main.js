@@ -1,5 +1,6 @@
 import './Main.css'
 import SidebarData from './SidebarData'
+import routes from '../routes.js';
 
 const Main = (props) => {
     const createHeaderTitle = () => {
@@ -15,6 +16,7 @@ const Main = (props) => {
             <header className='content-header' style={{backgroundColor: `${generateHeaderColor()}`}}>
                 {createHeaderTitle()}
             </header>
+            { routes }
         </main>
     )
 }

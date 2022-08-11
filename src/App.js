@@ -1,7 +1,6 @@
 import "./App.css";
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
-import routes from './routes';
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Main from "./components/Main";
@@ -23,9 +22,7 @@ const App = () => {
         <Sidebar sidebarToggled={sidebarToggled} path={path} />
       </aside>
       <main>
-        <Main sidebarToggled={sidebarToggled} path={path}>
-            { routes }
-        </Main>
+        <Main sidebarToggled={sidebarToggled} path={path}/>
       </main>
     </div>
   );

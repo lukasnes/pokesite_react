@@ -9,7 +9,8 @@ const Home = () => {
             <section className='left-column'>
                 {HomeData.map((dataObj,index) => {
                     if(index % 2){
-                        if(dataObj.link.startsWith('/')){
+                        let { link } = dataObj
+                        if(link[0] === '/'){
                             return (
                                 <LinkTagArticle obj={dataObj}/>
                             )
@@ -23,8 +24,9 @@ const Home = () => {
             </section>
             <section className='right-column'>
                 {HomeData.map((dataObj,index) => {
-                    if(! index % 2) {
-                        if(dataObj.link.startsWith('/')){
+                    if(index % 2 === 0){
+                        let { link } = dataObj
+                        if(link[0] === '/'){
                             return (
                                 <LinkTagArticle obj={dataObj}/>
                             )

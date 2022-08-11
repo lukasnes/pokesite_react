@@ -4,13 +4,13 @@ import './Article.css';
 
 const ATagArticle = props => {
     return (
-        <a style={{textDecoration: 'none'}} href={props.link}>
+        <a style={{textDecoration: 'none'}} href={props.obj.link}>
             <article>
-                <div></div>
+                <div style={{background: `linear-gradient(to bottom, #FFFFFF, ${props.color})`}} className="article-sidebar"></div>
                 <div>
                     
                 </div>
-                <div></div>
+                <div style={{background: `linear-gradient(to bottom, #FFFFFF, ${props.color})`}} className="article-sidebar"></div>
             </article>
         </a>
     )
