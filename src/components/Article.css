@@ -1,6 +1,6 @@
 article {
     display: flex;
-    width: 400px;
+    width: 500px;
     min-height: 400px;
     height: fit-content;
     text-align: center;
@@ -16,7 +16,7 @@ article {
     justify-content: space-around;
     align-items: center;
     background-color: var(--white);
-    width: 300px;
+    width: 400px;
 }
 
 .article-image-box {

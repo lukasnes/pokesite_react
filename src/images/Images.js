@@ -9,6 +9,7 @@ import BattleIcon from './icons/battle.png';
 import ForumIcon from './icons/forum.png';
 import PagesIcon from './icons/pages.png';
 import AboutIcon from './icons/about.png';
+import WarningIcon from './icons/warning.png';
 import PokeLogo from './logos/poke_logo.png';
 import PokeBG from './logos/pokemon_bg.png';
 
@@ -27,7 +28,8 @@ const Images = {
         battle: BattleIcon,
         forum: ForumIcon,
         pages: PagesIcon,
-        about: AboutIcon
+        about: AboutIcon,
+        warning: WarningIcon
     },
     logos: {
         logo: PokeLogo,
