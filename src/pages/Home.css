@@ -1,0 +1,14 @@
+.Home {
+    display: flex;
+    width: 100%;
+    min-height: 150vh;
+    height: fit-content;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}

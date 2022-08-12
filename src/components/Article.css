@@ -1,0 +1,40 @@
+article {
+    display: flex;
+    width: 400px;
+    min-height: 400px;
+    height: fit-content;
+    text-align: center;
+}
+
+.article-sidebar{
+    width: 50px;
+}
+
+.article-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--white);
+    width: 300px;
+}
+
+.article-image-box {
+    width: 100%;
+    height: 200px;
+}
+
+.article-image {
+    width: 100%;
+    height: 100%;
+}
+
+.article-title{
+    margin: 5px;
+    font-size: 2em;
+}
+
+.article-text {
+    margin: 5px;
+    font-size: 1.5em;
+}

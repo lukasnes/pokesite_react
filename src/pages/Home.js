@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.css'
 import HomeData from './HomeData'
 import ATagArticle from '../components/ATagArticle';
 import LinkTagArticle from '../components/LinkTagArticle';
@@ -8,7 +9,7 @@ const Home = () => {
         <div className="Home">
             <section className='left-column'>
                 {HomeData.map((dataObj,index) => {
-                    if(index % 2){
+                    if(index % 2 === 0){
                         let { link } = dataObj
                         if(link[0] === '/'){
                             return (
@@ -24,7 +25,7 @@ const Home = () => {
             </section>
             <section className='right-column'>
                 {HomeData.map((dataObj,index) => {
-                    if(index % 2 === 0){
+                    if(index % 2){
                         let { link } = dataObj
                         if(link[0] === '/'){
                             return (
